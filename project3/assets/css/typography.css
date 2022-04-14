@@ -1,3 +1,79 @@
-h1{
-color: red;
+
+h1#heading.heading {
+   color: yellow;
+}
+
+#heading.heading {
+   color: red;
+}
+
+h1#heading {
+   color: brown;
+}
+
+#heading {
+   color: green;
+}
+
+#heading h1 {
+   color: purple;
+}
+
+.heading {
+   text-align: center;
+   color: red;
+}
+
+h1 {
+   color: blue;
+}
+
+h2 {
+   color: red;
+}
+
+p.content {
+   color: gold;
+}
+
+.block p {
+   color: red;
+}
+
+.block img {
+   /* stylings for my image */
+}
+
+.block h3 {
+   /*  styling for heading */
+}
+
+.block p {
+   /* more styling */
+}
+
+.btn {
+   /* common styling for a button */
+}
+
+.btn--warning {
+   background-color: yellow;
+}
+
+.btn--danger {
+   background-color: red;
+}
+
+.news {
+   background-color: red;
+}
+
+.news__heading {
+}
+
+.new__photo {
+}
+
+.news__photo--framed {
+   /* will have some border styling in here */
 }
